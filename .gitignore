@@ -1,0 +1,28 @@
+# Java / Maven
+target/
+*.class
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local IDE files
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+
+# Local demo data
+src/main/frontend/backend/db.json
+
+# Local database configuration
+src/main/resources/application.properties
+.factorypath
